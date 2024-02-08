@@ -16,7 +16,7 @@ create table Users
 FirstName varchar(64) not null ,
 LastName varchar(64) not null,
 Email varchar(64) not null,
-PhoneNumber int not null);
+PhoneNumber bigint not null);
 
 Desc Users;
 
