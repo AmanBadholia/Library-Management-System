@@ -38,8 +38,8 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
 ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/a07db20b-c4f9-413b-8a48-a082c287c4eb)
 
 # Data Model:
-1. ENTITIES
-- **BOOK:** Represents the book in a library.
+1. **ENTITIES**
+- **BOOKS:** Represents the book in a library.
    - **Attributes:** 
    - **BOOK_ID** 
    - **TITLE**
@@ -49,7 +49,7 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
    - **ISBN**
    - **Quantity_Available**
 
-- **USER:** Represents a library member.
+- **USERS:** Represents a library member.
    - **Attributes:** 
    - **USER_ID** 
    - **FirstName**
@@ -65,3 +65,19 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
    - **Borrow_Date**
    - **Due_Date**
    - **Return_Date**
+
+2. **RELATIONSHIPS**
+- **TRANSACTION-BOOK:** Many-to-one relationship between transactions and books. Each transaction is associated with one book, but a book can be into multiple transactions.
+- **TRANSACTION-USER:** Many-to-one relationship between transactions and users. Each transaction is associated with one user, but a user can have multiple transactions.
+
+3. **CONSTRAINTS**
+-  Each BOOK must have a unique BOOK_ID.
+-  Each USER must have a unique USER_ID.
+-  Each TRANSACTION must have a unique TRANSACTION_ID.
+-  Foreign key constraints ensure referential integrity between related tables (e.g., BID in Transactions table refernces BOOK_ID in Books table).
+
+3. **DIAGRAM**
+
+   ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/8b018a6f-545f-454f-8f43-311212f3b4d4)
+
+# ETL PROCESS:
