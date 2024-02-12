@@ -82,4 +82,8 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
 
 # DATABASE MANAGEMENT:
  1. **SCHEMA**
-    
+
+![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/24b68817-0be4-4520-b36d-f43d2c855abf)   ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/4ec1a83d-fe3c-4e38-bfce-f086700445c7)
+
+
+
