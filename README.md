@@ -81,3 +81,14 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
    ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/8b018a6f-545f-454f-8f43-311212f3b4d4)
 
 # ETL PROCESS:
+The Extract, Transform, Load (ETL) process for a Library Management System (LMS) involves gathering data from various sources related to library operations, transforming it into a usable format, and loading it into a database or data warehouse for analysis and reporting. Here's a high-level overview of the steps involved:
+
+1. **Extract**:
+   - Data is extracted from multiple sources within the library system, such as:
+     - Library catalog database: Contains information about books, authors, genres, etc.
+     - User management system: Stores data about library members, including their information and borrowing history.
+     - Transaction logs: Records details of book borrows, returns, etc.
+   - Tools and technologies used for extraction in LMS:
+     - SQL queries to extract data from relational databases.
+     - File readers to parse log files or CSV exports.
+     - 
