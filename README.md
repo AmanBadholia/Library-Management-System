@@ -53,8 +53,15 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
    - **Attributes:** 
    - **USER_ID** 
    - **FirstName**
-   - **SecondName**
-   - **Mail**
+   - **LastName**
+   - **Email**
    - **PhoneNumber**
-   - **ISBN**
-   - **Quantity_Available**
+
+- **TRANSACTIONS:** .
+   - **Attributes:** 
+   - **Transaction_ID** 
+   - **USER_ID**
+   - **BOOK_ID**
+   - **Borrow_Date**
+   - **Due_Date**
+   - **Return_Date**
