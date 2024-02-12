@@ -87,4 +87,34 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
 ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/4ec1a83d-fe3c-4e38-bfce-f086700445c7)  
 ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/e97b6e66-bac5-4bef-bef8-9d8e2b444a1e)
 
+# TESTING:
+OUTLINING DIFFERENT SCENARIOS TESTED DURING THE PROJECT.
 
+**1. Queries:**
+
+- Retrieve a list of all books available in the library.
+- Find out who has borrowed a specific book.
+- List all overdue books.
+- Display the history of transactions for a particular user.
+- Calculate the total number of books borrowed by a user.
+
+**2. Relationships:**
+
+- Establish relationships between the tables (e.g., Books and Transactions through BookID).
+- Ensure referential integrity by setting up appropriate constraints.
+
+**3. Indexing:**
+
+- Index important columns for faster retrieval, like BookID, UserID, etc.
+
+**4. Views:**
+
+- Create views to simplify complex queries or frequently used combinations of data.
+
+**5. Procedures/Functions:**
+
+- Develop stored procedures for common tasks (e.g., borrowing a book, returning a book).
+
+**6. Triggers:**
+
+- Implement triggers for automatic updates (e.g., decrease QuantityAvailable when a book is borrowed).
