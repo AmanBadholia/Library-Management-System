@@ -38,3 +38,23 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
 ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/a07db20b-c4f9-413b-8a48-a082c287c4eb)
 
 # Data Model:
+1. ENTITIES
+- **BOOK:** Represents the book in a library.
+   - **Attributes:** 
+   - **BOOK_ID** 
+   - **TITLE**
+   - **Author**
+   - **Genre**
+   - **Publication_Year**
+   - **ISBN**
+   - **Quantity_Available**
+
+- **USER:** Represents a library member.
+   - **Attributes:** 
+   - **USER_ID** 
+   - **FirstName**
+   - **SecondName**
+   - **Mail**
+   - **PhoneNumber**
+   - **ISBN**
+   - **Quantity_Available**
