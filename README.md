@@ -121,4 +121,6 @@ OUTLINING DIFFERENT SCENARIOS TESTED DURING THE PROJECT.
 
 **6. Triggers:**
 
+- MYSQL Trigger function for Quantity decrease while borrowing books - [Download Library_Trigger_Borrow.sql](Library_Trigger_Borrow.sql)
+- MYSQL Trigger function for Quantity increase while returning books - [Download Library_Trigger_Return.sql](Library_Trigger_Return.sql)
 - Implement triggers for automatic updates (e.g., decrease QuantityAvailable when a book is borrowed).
