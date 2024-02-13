@@ -106,7 +106,7 @@ OUTLINING DIFFERENT SCENARIOS TESTED DURING THE PROJECT.
 - Ensure referential integrity by setting up appropriate constraints.
 
 **3. Indexing:**
-- MYSQL Queries for Indexing - [Download Library_DB.sql](Library_DB.sql)
+- MYSQL Queries for Indexing - [Download Library_Indexing.sql](Library_Indexing.sql)
 - Index important columns for faster retrieval, like BookID, UserID, etc.
 
 **4. Views:**
