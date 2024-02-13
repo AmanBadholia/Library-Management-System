@@ -114,8 +114,9 @@ OUTLINING DIFFERENT SCENARIOS TESTED DURING THE PROJECT.
 - Create views to simplify complex queries or frequently used combinations of data.
 
 **5. Procedures/Functions:** 
-MYSQL Procedure function for borrowing books - [Download Library_StoredProcedure_borrow.sql](Library_StoredProcedure_borrow.sql)
-MYSQL Procedure function for returning books - [Download Library_StoredProcedure_return.sql](Library_StoredProcedure_return.sql)
+
+- MYSQL Procedure function for borrowing books - [Download Library_StoredProcedure_borrow.sql](Library_StoredProcedure_borrow.sql)
+- MYSQL Procedure function for returning books - [Download Library_StoredProcedure_return.sql](Library_StoredProcedure_return.sql)
 - Develop stored procedures for common tasks (e.g., borrowing a book, returning a book).
 
 **6. Triggers:**
