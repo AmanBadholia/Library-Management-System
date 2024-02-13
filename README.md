@@ -91,7 +91,7 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
 OUTLINING DIFFERENT SCENARIOS TESTED DURING THE PROJECT.
 
 **1. Queries:**
-
+[Download Library_Queries.sql](Library_Queries.sql)
 - Retrieve a list of all books available in the library.
 - Find out who has borrowed a specific book.
 - List all overdue books.
