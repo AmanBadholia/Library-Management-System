@@ -83,7 +83,7 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
 # DATABASE MANAGEMENT:
  1. **SCHEMA**
 
-- MYSQL Queries for creating database - [Download Library_DB.sql]
+- MYSQL Queries for creating database - [Download Library_DB.sql](Library_DB.sql)
 ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/24b68817-0be4-4520-b36d-f43d2c855abf)  
 ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/4ec1a83d-fe3c-4e38-bfce-f086700445c7)  
 ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/e97b6e66-bac5-4bef-bef8-9d8e2b444a1e)
@@ -92,7 +92,7 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
 OUTLINING DIFFERENT SCENARIOS TESTED DURING THE PROJECT.
 
 **1. Queries:**
-- MYSQL Queries for testing -[Download Library_Queries.sql]([Library_Queries.sql](https://github.com/AmanBadholia/Library-Management-System/blob/main/Library_Queries.sql))
+- MYSQL Queries for testing -[Download Library_Queries.sql](Library_Queries.sql))
 - Retrieve a list of all books available in the library.
 - Find out who has borrowed a specific book.
 - List all overdue books.
@@ -100,7 +100,7 @@ OUTLINING DIFFERENT SCENARIOS TESTED DURING THE PROJECT.
 - Calculate the total number of books borrowed by a user.
 
 **2. Relationships:**
-- MYSQL Queries for making Relationship while creating database - [Download Library_DB.sql]
+- MYSQL Queries for making Relationship while creating database - [Download Library_DB.sql](Library_DB.sql)
 - Establish relationships between the tables (e.g., Books and Transactions through BookID).
 - Ensure referential integrity by setting up appropriate constraints.
 
