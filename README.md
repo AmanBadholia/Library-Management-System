@@ -84,6 +84,7 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
  1. **SCHEMA**
 
 - MYSQL Queries for creating database - [Download Library_DB.sql](Library_DB.sql)
+  
 ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/24b68817-0be4-4520-b36d-f43d2c855abf)  
 ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/4ec1a83d-fe3c-4e38-bfce-f086700445c7)  
 ![image](https://github.com/AmanBadholia/Library-Management-System/assets/159482577/e97b6e66-bac5-4bef-bef8-9d8e2b444a1e)
@@ -92,7 +93,7 @@ This project is a comprehensive Library Management System (LMS) built using MYSQ
 OUTLINING DIFFERENT SCENARIOS TESTED DURING THE PROJECT.
 
 **1. Queries:**
-- MYSQL Queries for testing -[Download Library_Queries.sql](Library_Queries.sql))
+- MYSQL Queries for testing -[Download Library_Queries.sql](Library_Queries.sql)
 - Retrieve a list of all books available in the library.
 - Find out who has borrowed a specific book.
 - List all overdue books.
@@ -105,7 +106,7 @@ OUTLINING DIFFERENT SCENARIOS TESTED DURING THE PROJECT.
 - Ensure referential integrity by setting up appropriate constraints.
 
 **3. Indexing:**
-
+- MYSQL Queries for Indexing - [Download Library_DB.sql](Library_DB.sql)
 - Index important columns for faster retrieval, like BookID, UserID, etc.
 
 **4. Views:**
