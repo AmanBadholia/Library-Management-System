@@ -110,7 +110,7 @@ OUTLINING DIFFERENT SCENARIOS TESTED DURING THE PROJECT.
 - Index important columns for faster retrieval, like BookID, UserID, etc.
 
 **4. Views:**
-
+- MYSQL Queries for Views - [Download Library_Views.sql](Library_Views.sql)
 - Create views to simplify complex queries or frequently used combinations of data.
 
 **5. Procedures/Functions:**
